@@ -1,0 +1,93 @@
+img{
+    max-width:100%;
+    max-height: 100%;
+}
+
+.hero{
+    display: flex;
+}
+.heroBackground{
+    display: flex;
+}
+
+.heroBackground > div{
+    width:32vw;
+    height: 100vh;
+}
+.backgroundBalk{
+    background-color: #282c34;
+    z-index: 2;
+}
+
+.backgroundImage{
+    height: 100vh;
+    display: flex;
+    justify-content: stretch;
+
+}
+
+
+.backgroundWhite{
+    background-color: #fff;
+    z-index: 2;
+}
+
+
+
+.heroSection{
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+
+    justify-content: space-evenly;
+    z-index: 50;
+
+}
+.heroTitle .heroDescription{
+
+}
+
+
+.heroTitle{
+    width: 25%;
+    color: #fff;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+.heroTitle h1{
+    font-size: 50px;
+    margin: 0;
+}
+.heroTitle h1 span{
+ color: #282c34;
+}
+.heroDescription{
+    width: 20%;
+    margin-top: 20vh;
+}
+
+.heroDescription button{
+    color: #fff;
+    height: 50px;
+    border: none;
+}
+
+.heroDescription .ourBtn{
+    background-color: #282c34;
+    width: 180px;
+    cursor: pointer;
+}
+
+.heroDescription .rightBtn{
+    background: #d5966a;
+    width: 40px;
+    cursor: pointer;
+}
+
+
