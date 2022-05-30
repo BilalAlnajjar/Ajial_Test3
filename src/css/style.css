@@ -142,6 +142,7 @@ iframe{
     background-color: black;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
   .street h1{
     color:rgb(182, 135, 135);
@@ -155,7 +156,8 @@ iframe{
   .gallery{
     display: flex;
     justify-content: space-around;
-    /* padding:50px 10rem; */
+    flex-wrap: wrap;
+    padding:50px 7rem;
     background-color:rgb(182, 135, 135);
   }
   
