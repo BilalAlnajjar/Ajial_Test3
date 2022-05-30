@@ -14,9 +14,10 @@ class LocationSection extends React.Component{
               <h6>RI 02840</h6>
               <h6>United states of America</h6>
 
-              <p>Our jhjvvvvvvvvvvvvvoiweodjde8ruerwehdjehlkoijkdfjhuerlfjkefhurdjfhaswwh<br></br>
-              Our jhjvvvvvvvvvvvvvoiweodjde8ruerwehdjehlkoijkdfjhuerlfjkefhurdjfhaswwh<br></br>
-              Our jhjvvvvvvvvvvvvvoiweodjde8ruerwehdjehlkoijkdfjhuerlfjkefhurdjfhaswwh<br></br>
+              <p>Our newly opend gallery is located near the Edward<br></br>
+                 king House on 99 king street, the Mopdern Art Gallery is<br></br>
+                 free to all vistors and open seven days a week from<br></br>
+                 8am to 9pm.
               </p>
           </div>
       </div>
