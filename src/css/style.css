@@ -1,3 +1,7 @@
+:root{
+    --backgroundPrimary:#d5966a;
+}
+
 img{
     max-width:100%;
     max-height: 100%;
@@ -86,7 +90,7 @@ img{
 }
 
 .heroDescription .rightBtn{
-    background: #d5966a;
+    background: var(--backgroundPrimary);
     width: 40px;
     cursor: pointer;
 }
@@ -150,7 +154,7 @@ iframe{
     color:rgb(233 245 250 / 68%);
   }
   .street h1{
-    color:rgb(220 172 172);
+    color:var(--backgroundPrimary);;
   }
   h6{
     margin: 5px;
@@ -163,7 +167,7 @@ iframe{
     justify-content: space-around;
     flex-wrap: wrap;
     padding:50px 7rem;
-    background-color:rgb(220 172 172);
+    background-color:var(--backgroundPrimary);;
   }
   .gall-head h1, .gallery p{
       margin: 0;

@@ -31,7 +31,7 @@ class HeroSection extends React.Component{
                         </p>
                         <div>
                             <button className="ourBtn">OUR LOCATION</button>
-                            <button className="rightBtn">  </button>
+                            <button className="rightBtn"> > </button>
                         </div>
 
                     </div>
