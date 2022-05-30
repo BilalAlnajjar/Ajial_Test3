@@ -1,6 +1,6 @@
 import React from 'react';
 import ImgSecondSection from '../image/imgSecondSection.jpg';
-
+import "../css/style.css"
 class SecondSection extends React.Component{
   render(){
     return(
