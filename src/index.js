@@ -1,13 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import SecondSection from "./Component/SecondSection";
+import HeroSection from "./Component/HeroSection";
+import MapSection from "./Component/MapSection";
+import LocationSection from "./Component/LocationSection";
+import Footer from "./Component/Footer";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+      <HeroSection />
+      <SecondSection />
+      <MapSection />
+      <LocationSection/>
+      <Footer/>
   </React.StrictMode>
 );
 
