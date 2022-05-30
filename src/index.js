@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import SecondSection from "./component/SecondSection";
-import HeroSection from "./component/HeroSection ";
-import MapSection from "./component/MapSection";
+import SecondSection from "./Component/SecondSection";
+import HeroSection from "./Component/HeroSection";
+import MapSection from "./Component/MapSection";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
