@@ -9,7 +9,10 @@ class Footer extends React.Component{
           </div>
 
           <div className="gall-content">
-              <p>jngggggbnruigjufgfffffffffffffffffffffferiieuoruoerjeifcnejkvgn</p>
+              <p>The Modern ArtGallery is free to all visitors and open<br></br>
+                 seven days a week from 8am to 9am. find us at 99<br></br>
+                 king Street. Newport, USA.
+              </p>
           </div>
 
           <div className="gall-icons">
