@@ -138,14 +138,19 @@ iframe{
 /***********Create Location section****************/
 .location{
     padding:50px 10rem;
-    color: aliceblue;
     background-color: black;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
   }
+  .location .header h1{
+    color: aliceblue;
+  }
+  .street h6, .street p{
+    color:rgb(233 245 250 / 68%);
+  }
   .street h1{
-    color:rgb(182, 135, 135);
+    color:rgb(220 172 172);
   }
   h6{
     margin: 5px;
@@ -158,6 +163,13 @@ iframe{
     justify-content: space-around;
     flex-wrap: wrap;
     padding:50px 7rem;
-    background-color:rgb(182, 135, 135);
+    background-color:rgb(220 172 172);
   }
-  
+  .gall-head h1, .gallery p{
+      margin: 0;
+  }
+  .gall-images img{
+    width: 20px;
+    height: 20px;
+    padding:0 2px;
+  }
