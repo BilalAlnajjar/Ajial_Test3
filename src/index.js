@@ -2,12 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import HeroSection from "./Component/HeroSection";
+import SecondSection from "./component/SecondSection";
+import HeroSection from "./component/HeroSection ";
+import MapSection from "./component/MapSection";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <HeroSection />
+      <HeroSection />
+      <SecondSection/>
+      <MapSection />
   </React.StrictMode>
 );
 

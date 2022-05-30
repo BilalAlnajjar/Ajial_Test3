@@ -1,4 +1,4 @@
-# To Gettin Started with Task 3 must 
+# To Gettin Started with Task 3 must add
 
 
 ### 'npm install'
