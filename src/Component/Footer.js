@@ -1,11 +1,14 @@
 import React from "react";
 import "../css/style.css"
+import facebookImage from '../image/facebookImage.png';
+import insta from '../image/instaImage.png';
+import twitter from '../image/twitterImage.png';
 class Footer extends React.Component{
   render(){
     return (
       <footer className="gallery">
           <div className="gall-head">
-              <h1>MODERN ART GALLERY</h1>
+              <h1>MODERN <br></br>ART GALLERY</h1>
           </div>
 
           <div className="gall-content">
@@ -15,8 +18,10 @@ class Footer extends React.Component{
               </p>
           </div>
 
-          <div className="gall-icons">
-              <i className="">fecebook</i>
+          <div className="gall-images">
+              <img src={facebookImage}></img>
+              <img src={insta}></img>
+              <img src={twitter}></img>
           </div>
       </footer>
     ); 
