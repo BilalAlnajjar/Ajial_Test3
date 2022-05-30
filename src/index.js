@@ -5,6 +5,9 @@ import reportWebVitals from './reportWebVitals';
 import SecondSection from "./Component/SecondSection";
 import HeroSection from "./Component/HeroSection";
 import MapSection from "./Component/MapSection";
+import LocationSection from "./Component/LocationSection";
+import Footer from "./Component/Footer";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +15,8 @@ root.render(
       <HeroSection />
       <SecondSection />
       <MapSection />
+      <LocationSection/>
+      <Footer/>
   </React.StrictMode>
 );
 
