@@ -4,12 +4,14 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import SecondSection from "./component/SecondSection";
 import HeroSection from "./component/HeroSection ";
+import MapSection from "./component/MapSection";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
       <HeroSection />
       <SecondSection/>
+      <MapSection />
   </React.StrictMode>
 );
 
