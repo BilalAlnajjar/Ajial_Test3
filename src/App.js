@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import SecondSection from './component/SecondSection';
+import React from "react";
 
-function App() {
-  return (
-      <div className="b">Hello Everyone</div>
-  );
+class App extends React.Component{
+  render() {
+    return (
+        <div className="b">Hello Everyone</div>
+    );
+  }
 }
 
 export default App;
