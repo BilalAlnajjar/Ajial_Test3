@@ -14,6 +14,7 @@ root.render(
   <React.StrictMode>
       <HeroSection />
       <SecondSection />
+      <ThirdSection/>
       <MapSection />
       <LocationSection/>
       <Footer/>
