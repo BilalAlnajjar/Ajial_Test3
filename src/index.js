@@ -7,6 +7,7 @@ import HeroSection from "./Component/HeroSection";
 import MapSection from "./Component/MapSection";
 import LocationSection from "./Component/LocationSection";
 import Footer from "./Component/Footer";
+import ThirdSection from "./Component/ThirdSection"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,7 +15,7 @@ root.render(
   <React.StrictMode>
       <HeroSection />
       <SecondSection />
-      <ThirdSection/>
+      <ThirdSection />
       <MapSection />
       <LocationSection/>
       <Footer/>
